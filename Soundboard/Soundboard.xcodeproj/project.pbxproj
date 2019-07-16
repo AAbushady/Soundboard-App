@@ -13,6 +13,7 @@
 		3006916422DD052E004EDCE9 /* Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3006916222DD052E004EDCE9 /* Soundboard.xcdatamodeld */; };
 		3006916622DD052F004EDCE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3006916522DD052F004EDCE9 /* Assets.xcassets */; };
 		3006916922DD052F004EDCE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3006916722DD052F004EDCE9 /* LaunchScreen.storyboard */; };
+		3037911922DDD11A004F01B2 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037911822DDD11A004F01B2 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3006916522DD052F004EDCE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3006916822DD052F004EDCE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3006916A22DD052F004EDCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3037911822DDD11A004F01B2 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				3006915B22DD052E004EDCE9 /* AppDelegate.swift */,
 				3006915D22DD052E004EDCE9 /* ViewController.swift */,
+				3037911822DDD11A004F01B2 /* SoundViewController.swift */,
 				3006915F22DD052E004EDCE9 /* Main.storyboard */,
 				3006916522DD052F004EDCE9 /* Assets.xcassets */,
 				3006916722DD052F004EDCE9 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3037911922DDD11A004F01B2 /* SoundViewController.swift in Sources */,
 				3006915E22DD052E004EDCE9 /* ViewController.swift in Sources */,
 				3006916422DD052E004EDCE9 /* Soundboard.xcdatamodeld in Sources */,
 				3006915C22DD052E004EDCE9 /* AppDelegate.swift in Sources */,
