@@ -53,8 +53,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RE6-Pt-Eki">
-                                <rect key="frame" x="183" y="117" width="49" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RE6-Pt-Eki">
+                                <rect key="frame" x="182.66666666666666" y="108" width="49" height="30"/>
                                 <state key="normal" title="Record"/>
                                 <connections>
                                     <action selector="recordTapped:" destination="qbO-gt-EcB" eventType="touchUpInside" id="Cjx-Nb-LTg"/>
@@ -88,17 +88,19 @@
                         <constraints>
                             <constraint firstItem="cMu-gg-j6M" firstAttribute="centerX" secondItem="BSI-tq-2TS" secondAttribute="centerX" id="1DC-oE-p4f"/>
                             <constraint firstItem="mfE-zo-NMD" firstAttribute="top" secondItem="DdQ-eZ-b3s" secondAttribute="bottom" constant="20" id="63s-dn-0xl"/>
-                            <constraint firstItem="RE6-Pt-Eki" firstAttribute="centerX" secondItem="BSI-tq-2TS" secondAttribute="centerX" id="UH2-Mo-CyA"/>
                             <constraint firstItem="mfE-zo-NMD" firstAttribute="centerX" secondItem="BSI-tq-2TS" secondAttribute="centerX" id="Yxw-0G-NSF"/>
                             <constraint firstItem="RE6-Pt-Eki" firstAttribute="top" secondItem="UVe-Sn-6fz" secondAttribute="top" constant="20" id="f4r-HP-KBw"/>
                             <constraint firstItem="DdQ-eZ-b3s" firstAttribute="top" secondItem="cMu-gg-j6M" secondAttribute="bottom" constant="20" id="g5p-Qz-wyu"/>
                             <constraint firstItem="DdQ-eZ-b3s" firstAttribute="centerX" secondItem="BSI-tq-2TS" secondAttribute="centerX" id="iDe-Ri-qaS"/>
                             <constraint firstItem="cMu-gg-j6M" firstAttribute="top" secondItem="RE6-Pt-Eki" secondAttribute="bottom" constant="20" id="kjS-Jx-9Dq"/>
+                            <constraint firstItem="RE6-Pt-Eki" firstAttribute="centerX" secondItem="BSI-tq-2TS" secondAttribute="centerX" id="tWs-5a-BMg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UVe-Sn-6fz"/>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="mfE-zo-NMD" id="IXm-Td-BQW"/>
                         <outlet property="nameTextField" destination="DdQ-eZ-b3s" id="9vv-bG-FVL"/>
+                        <outlet property="playButton" destination="cMu-gg-j6M" id="xjt-OI-whK"/>
                         <outlet property="recordButton" destination="RE6-Pt-Eki" id="KLH-xm-qse"/>
                     </connections>
                 </viewController>
